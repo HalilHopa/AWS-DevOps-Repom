@@ -448,7 +448,7 @@ An Then wait   : 200
 
 - Click Create
 
-Step 2: Create `Remove-Policy`;
+Step 2: Create ` Auto Scaling-Add`;
 
 - Go to `Auto Scaling Groups` --> click `First-AS-Group` --> `Automatic Scaling` -----> `Create dynamic scaling policy`
 
