@@ -305,7 +305,7 @@ echo ${DISTROS[1]}
 - We can access all elements by putting `@` instead of number.
 
 ```bash
-echo €$
+echo ${DISTROS[@]}
 ```
 
 - With the following method, we can learn number of elements.
