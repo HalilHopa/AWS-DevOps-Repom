@@ -178,6 +178,14 @@ Then a window that shows the review of the table pops up on the screen. Click Ap
 - Add another table via SQL command:
 
 ```sql
+CREATE TABLE `clarusway`.`Personal_Info_2` (
+  `ID_number` INT NOT NULL,
+  `Name` VARCHAR(45) NULL,
+  `Surname` VARCHAR(45) NULL,
+  `Gender` VARCHAR(45) NULL,
+  `Age` INT NULL,
+  `Department` VARCHAR(45) NULL,
+  PRIMARY KEY (`ID_number`));
 ```
 
 - Then refresh the "Table" tab to see newly created tables 
