@@ -129,7 +129,7 @@ sudo systemctl enable mariadb
 # 16. Setup secure installation of MariaDB.
 sudo mysql_secure_installation # Set root pwd: "root1234", and "y" to all questions.
 
-# 17. Connect mysql terminal with password (pwd
+# 17. Connect mysql terminal with password (pwd: "root1234").
 mysql -u root -p
 
 # 18. Show databases.
